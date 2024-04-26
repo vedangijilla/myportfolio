@@ -195,16 +195,6 @@ footer .footer-rights{
   font-size: 2rem;
   margin: 20px;
 }
-
-content{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0,0,0,0.8);
-}
-
 section {
   position: relative;
   z-index: 3;
@@ -238,7 +228,7 @@ section {
 
 .row  {
   display: flex;
-  flex-wrap: wrap;
+  flwx-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
