@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">My PortFolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello! <br>My Name is <span class="color"><b>Vedangi</b></span><br>
+                <div>and I am a passinate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="projects.html">My Projects</a></button>
+                    <button class="btn"><a href="https://github.com/vedangijilla">Visit GitHub</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="imgs/backgroud img.png" alt="image">
+            </div>
+        </section>
+<hr>        
+        <section class="secondsection">
+            <span>About Me</span>
+            <div class="aboutme-img">
+                <img src="imgs/developer image.png" alt="aboutme-img">
+            </div>
+            <div class="aboutme-text">
+                My name is Vedangi, I’ve been studying computer science for one years. In order to kick-start my career before I graduate, 
+                I am looking for a job of a web developer, since that’s what I’ve been doing already six months in my free time. 
+                Designing websites for friends, developing simple e-shops with the help of some open source content-management systems, and so on. 
+                If I should pick the best website I’ve designed up to this point,it will be this one:
+                (My PortFolio) I am ambitious and hard-working and believe you’ll give me a chance to prove my words.
+                <div class="contact-button">
+                    <button class="button"><a href="contact.html">Contact me</a></button>
+                </div>
+            </div>
+        </section>
+<hr>
+        <section class="thirdsection">
+            <span>My Projects</span>
+            <div class="firstproject">
+                <a href="https://vedangijilla.github.io/myport/"><button class="btn">My Fisrt Project</button>
+                    <img src="imgs/navigationbarimage.jpg" alt="navbarimage">
+                </a>
+            </div>
+            <div class="secondproject">
+                <a class="secondproject" href="https://vedangijilla.github.io/MyWebPage/"><button class="btn">My Second Project</button>
+                    <img src="imgs/backgroundimage.jpg" alt="navigationbarproject">
+                </a>
+            </div>
+            <div class="thirdproject">
+            <a class="thirdproject" href="https://vedangijilla.github.io/CreamDream/"><button class="btn">My Third projects</button>
+                <img src="imgs/icecreamshopimage.jpg" alt="icecreamshop">
+            </a>
+            </div>
+        </section>
+        <hr>
+        <section>
+    
+            <div class="section-header">
+              <div class="container">
+                <h2>Contact Us</h2>
+              </div>
+            </div>
+            
+            <div class="container">
+              <div class="row">
+                
+                <div class="contact-info">
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                      <i class="fas fa-home"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Address</h4>
+                      <p>1859, new paccha peth datt nagar, Solapur.</p>
+                    </div>
+                  </div>
+                  
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Phone</h4>
+                      <p>+91 98341 10286</p>
+                    </div>
+                  </div>
+                  
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Email</h4>
+                     <p>vedangi04jilla@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="contact-form">
+                  <form action="" id="contact-form">
+                    <h2>Send Message</h2>
+                    <div class="input-box">
+                      <input type="text" required="true" name="">
+                      <span>Full Name</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <input type="email" required="true" name="">
+                      <span>Email</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <textarea required="true" name=""></textarea>
+                      <span>Type your Message...</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <input type="submit" value="Send" name="">
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+        
+    
+    </main>
+   
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Designer', 'Web Developer'  ],
+          typeSpeed: 50,
+        });
+      </script>
+           
+</body>
+</html>
